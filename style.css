@@ -50,3 +50,51 @@ header {
   height: 100%;
   padding-left: 30px;
 }
+#header_p {
+  position: absolute;
+  text-align: center;
+  bottom: 40px;
+  right: 40px;
+  padding: 10px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 25px;
+  background-color: #d9d9d9bc;
+  line-height: 1.6;
+}
+#services_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+h1 {
+  font-size: 26px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+.products_container {
+  padding: 80px;
+}
+.service1_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+.service1_2 img {
+  width: 231.73px;
+  height: 300px;
+}
+.service1_2 p {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  text-align: center;
+  width: 20%;
+}
+.description {
+  display: inline-block;
+  margin-top: 15px;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+}
