@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book a visit</title>
+    <link rel="stylesheet" href="booking.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Big+Shoulders:opsz,wght@10..72,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lexend+Deca:wght@100..900&family=Nova+Mono&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Revalia&family=Zen+Kaku+Gothic+Antique&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="introduction">
+      <h1>Book a visit</h1>
+      <p>
+        Thank you very much for considering a visit to Craftsvilla. Please fill
+        in the following items and press the "Submit" at the bottom to apply.
+      </p>
+    </div>
+    <div class="form_container">
+      <h2>Input form</h2>
+      <form>
+        <div class="form_details">
+          <label> Contact Person’s Name </label
+          ><span class="required-badge">Required</span>
+
+          <input type="text" required />
+        </div>
+
+        <div class="form_details">
+          <label> E-mail </label> <span class="required-badge">Required</span>
+          <input type="email" required />
+        </div>
+
+        <div class="form_details">
+          <label> Phone </label> <span class="required-badge">Required</span>
+          <input type="phnumber" required />
+        </div>
+
+        <div class="form_details">
+          <label> Planned Date and Time </label>
+          <span class="required-badge">Required</span>
+
+          <input type="date_time" required />
+        </div>
+
+        <div class="form_details">
+          <label> Number of Visitors </label>
+          <span class="required-badge">Required</span>
+
+          <input type="number" min="1" required />
+        </div>
+        <div class="form_details">
+          <input
+            type="submit"
+            value="Submit"
+            style="
+              background: black;
+              color: white;
+              padding: 10px;
+              border: none;
+              cursor: pointer;
+              border-radius: 5px;
+              width: 130px;
+              margin-top: 20px;
+            "
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

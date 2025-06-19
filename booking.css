@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  background-color: #eceeeb;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding: 30px;
+}
+
+.form_details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  gap: 25px;
+}
+.form_details label {
+  display: flex;
+  flex: 0 0 250px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.required-badge {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background-color: #c8c8c8d4;
+  width: 300px;
+  border-radius: 5px;
+}
+
+@media (min-width: 1024px) {
+  .form_details {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
