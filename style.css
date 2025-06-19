@@ -94,6 +94,14 @@ h1 {
   text-align: center;
   width: 20%;
 }
+#services h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  padding: 50px;
+  border-bottom: none;
+}
+
 .description {
   display: inline-block;
   margin-top: 15px;
