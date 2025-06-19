@@ -15,20 +15,23 @@ header {
   justify-content: space-between;
   padding: 0 50px;
 }
-/*h1 {
-  font-family: "Nova Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  margin-left: 100px;
-}
-*/
-#title_img {
-  width: 160px;
-  height: 200px;
 
-  position: relative;
+#title_container {
+  display: flex;
+  align-items: center;
 }
+
+#title_img {
+  max-width: 18%;
+  max-height: 18%;
+  margin-bottom: 18px;
+}
+
+#name {
+  font-size: 17px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
 #header_links {
   display: flex;
   justify-content: flex-end;
@@ -69,10 +72,7 @@ header {
   justify-content: center;
   margin-top: 60px;
 }
-h1 {
-  font-size: 26px;
-  font-family: "Zen Kaku Gothic Antique", sans-serif;
-}
+
 .products_container {
   padding: 80px;
 }
