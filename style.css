@@ -14,6 +14,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 50px;
+  padding-top: 10px;
 }
 
 #title_container {
@@ -24,11 +25,11 @@ header {
 #title_img {
   max-width: 18%;
   max-height: 18%;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
 }
 
 #name {
-  font-size: 17px;
+  font-size: 15px;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
@@ -46,6 +47,10 @@ header {
   font-weight: 400;
   color: black;
 }
+
+#header_links a:hover {
+  color: #624444;
+}
 #banner_container {
   position: relative;
   width: 1500px;
@@ -55,6 +60,7 @@ header {
   width: 100%;
   height: 100%;
   padding-left: 30px;
+  padding-top: 40px;
 }
 #header_p {
   position: absolute;
@@ -98,7 +104,7 @@ header {
   text-align: center;
   font-size: 30px;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
-  padding: 50px;
+  padding-top: 85px;
   border-bottom: none;
 }
 
@@ -151,5 +157,38 @@ h3 {
   text-decoration: none;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
   background-color: #676565cd;
+  color: rgb(255, 255, 255);
+}
+
+#info_btn:hover {
+  background-color: #333333;
+}
+.footer_container {
+  background-color: #929191;
+  height: 20vh;
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+}
+
+.social_media a i {
+  font-size: 25px;
+  padding: 30px;
+  color: #000;
+}
+.footer_nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footer_nav ul li a {
+  text-decoration: none;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 18px;
+  padding: 30px;
+  color: rgb(9, 9, 9);
+}
+.footer_nav ul li a:hover {
   color: rgb(255, 255, 255);
 }
